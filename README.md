@@ -6,3 +6,10 @@ So far, I have the following scripts:
 
 - **mctimer.py**: A simple timer. Can be supplied with an integer argument to specify duration in seconds.
 ![Timer screenshot](timer.png "Timer")
+
+---
+
+## Requirements
+
+- Python 3.9
+- rcon: `pip install rcon`
