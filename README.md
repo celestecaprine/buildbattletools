@@ -7,9 +7,11 @@ So far, I have the following scripts:
 - **mctimer.py**: A simple timer. Can be supplied with an integer argument to specify duration in seconds.
 ![Timer screenshot](timer.png "Timer")
 
+- **teleport.py**: A teleporter script for sending a player to a specific arena. Can be supplied with a playername and arena ID, or used standalone with the fzf prompt
 ---
 
 ## Requirements
 
 - Python 3.9
 - rcon: `pip install rcon`
+- pyfzf: `pip install pyfzf`

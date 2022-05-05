@@ -18,7 +18,7 @@ def main():
         client.run('bossbar set timer visible true')
         while i >= 1:
             client.run(f'bossbar set timer value {int(((i) / oi) * 100)}')
-            client.run(f'bossbar set timer name {{"text":"Time left: {time.strftime("%M:%S",time.gmtime(i))}","color":"light_purple"}}')
+            client.run(f'bossbar set timer name {{"text":"Time left: {time.strftime("%M:%S",time.gmtime(i))}","color":"aqua"}}')
             print(time.strftime("%M:%S",time.gmtime(i)), end='\r')
             i -= 1
             time.sleep(1)
